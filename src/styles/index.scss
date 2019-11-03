@@ -1,6 +1,10 @@
-$body-color: slateblue;
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
-body {
-  color: $body-color;
-  font-family: sans-serif;
-}
+@import './vars';
+@import './global';
+
+// Modules
+@import './modules/navbar';
+@import './modules/landing';
+@import './modules/cta-row';

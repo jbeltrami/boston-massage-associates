@@ -1,3 +1,7 @@
+body {
+  background-color: tint($cream, 70%);
+}
+
 ul,
 li {
   margin: 0;
@@ -14,6 +18,15 @@ li {
   background-color: $teal;
   border: none;
   border-radius: 10px;
+  transition: background-color 350ms ease;
+
+  &:hover {
+    background-color: $cream;
+
+    a {
+      color: $dkPurple30;
+    }
+  }
 
   a {
     color: $white;
@@ -29,4 +42,8 @@ section {
 
 .marker {
   font-family: $marker;
+}
+
+p {
+  font-family: $sans;
 }
